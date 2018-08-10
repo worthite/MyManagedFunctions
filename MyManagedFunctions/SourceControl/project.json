@@ -1,0 +1,19 @@
+{
+  "frameworks": {
+    "net46": {
+      "dependencies": {
+        "Microsoft.IdentityModel.Clients.ActiveDirectory": "3.16.0.14",
+        "Microsoft.IdentityModel.Logging": "1.0.0",
+        "Microsoft.Azure.KeyVault": "2.4.0-preview",
+        "Microsoft.Azure.Services.AppAuthentication": "1.1.0-preview",
+        "Microsoft.Azure.Management.Automation": "2.0.4",
+        "Microsoft.Azure.Management.Resources": "2.20.1-preview",
+        "WindowsAzure.Storage": "9.3.0",
+        "Microsoft.ApplicationInsights": "2.5.1",
+        "Microsoft.Azure.Common": "2.1.4",
+        "System.Threading.Tasks": "4.3.0",
+        "Newtonsoft.Json": "10.0.2"
+      }
+    }
+  }
+}
