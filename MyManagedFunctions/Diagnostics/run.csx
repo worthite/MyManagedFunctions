@@ -20,7 +20,7 @@ const string Failed = "Fail";
 
 private static string vaultname = ConfigurationManager.AppSettings["KeyVault"];
 
-public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceWriter log)
+public static void Run(TimerInfo myTimer, TraceWriter log)
 {
     log.Info("C# HTTP trigger function processed a request.");
  
