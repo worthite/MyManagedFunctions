@@ -15,8 +15,8 @@ using Newtonsoft.Json;
 using System.Configuration;
 using System.Linq;
 
-const string Passed = "Pass";
-const string Failed = "Fail";
+const string Passed = "Passed";
+const string Failed = "Failed";
 
 private static string vaultname = ConfigurationManager.AppSettings["KeyVault"];
 
